@@ -29,8 +29,6 @@ public class DicePlusScript : EmptyDicePlusListener, IDicePlusConnectorListener 
 //		transform.rotation = Quaternion.Euler(Vector3.zero);
 //		transform.Rotate(v);
 		currentOrientation = v;
-		Debug.DrawRay(Vector3.zero, v, Color.red, 0.05F, false);
-		Debug.DrawRay(Vector3.zero, Vector3.forward, Color.green, 0.05F, false);
 
 	}
 
